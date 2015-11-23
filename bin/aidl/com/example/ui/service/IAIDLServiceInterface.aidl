@@ -1,0 +1,3 @@
+interface IAIDLServiceInterface{
+	String getColor();
+}

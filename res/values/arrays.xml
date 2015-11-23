@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_list">
+        <item>TextView</item>
+        <item>EditView</item>
+        <item>Button</item>
+        <item>RadioButton</item>
+        <item>ToggleButton</item>
+        <item>Switcher</item>
+        <item>AnalogClock</item>
+        <item>DigitalClock</item>
+        <item>Chronometer</item>
+        
+        <item>ImageView</item>
+        <item>ArrayAdapter</item>
+        <item>SimpleAdapter</item>
+        <item>BaseAdapter</item>
+
+        <item>ExpandableListView</item>
+        <item>Spinner</item>
+        <item>Gallery</item>
+        <item>ViewFlipper</item>
+        <item>StackView</item>
+        
+        <item>Canvas</item>
+        
+        <item>Handler</item>
+        
+        <item >Activity</item>
+        <item >Service</item>
+        <item >Broadcast</item>
+        <item >Content Provider</item>
+        <item >Include Tag</item>
+        <item >Table Widget</item>
+    </string-array>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ui"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".textview.TextViewActivity"
+            android:label="TextView" >
+        </activity>
+        <activity
+            android:name=".radiobutton.RadioButtonActivity"
+            android:label="RadioButton" >
+        </activity>
+        <activity
+            android:name=".togglebutton.TogleButtonActivity"
+            android:label="ToggleButton" >
+        </activity>
+        <activity
+            android:name=".switcher.SwitcherActivity"
+            android:label="Switcher" >
+        </activity>
+        <activity
+            android:name=".chronometer.ChronometerActivity"
+            android:label="Chronometer" >
+        </activity>
+        <activity
+            android:name=".arrayadapter.ArrayAdapterActivity"
+            android:label="ArrayAdapter" >
+        </activity>
+        <activity
+            android:name=".simpleadapter.SimpleAdapterActivity"
+            android:label="SimpleAdapter" >
+        </activity>
+        <activity
+            android:name=".button.ButtonActivity"
+            android:label="Button" >
+        </activity>
+        <activity
+            android:name=".edittext.EditTextActivity"
+            android:label="EditText" >
+        </activity>
+        <activity
+            android:name=".service.ServiceActivity"
+            android:label="Service" >
+        </activity>
+
+        <service android:name=".service.MyAIDLService" >
+            <intent-filter>
+                <action android:name="MyAIDLService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".include_tag.IncludeTagActivity"
+            android:label="@string/title_activity_include_tag" >
+        </activity>
+        <activity
+            android:name="com.example.ui.tabwidget.TableWidgetActivity"
+            android:label="@string/title_activity_table_widget" >
+        </activity>
+    </application>
+
+</manifest>

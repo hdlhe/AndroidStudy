@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:drawableEnd="@drawable/ic_launcher"
+        android:text="我爱Java"
+        android:textSize="20pt" />
+    
+    <TextView
+        style="@style/ActivityLayoutMathWrap"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:text="我爱Java 我爱Java 我爱Java 我爱Java 我爱Java 我爱Java 我爱Java"
+        android:textAllCaps="true"
+        android:textSize="5pt" />
+    
+    <TextView
+        style="@style/ActivityLayoutMathWrap"
+        android:autoLink="email|phone"
+        android:singleLine="true"
+        android:text="邮件是kongyeeku@163.com 电话是02088888888" />
+    
+    <TextView
+        style="@style/ActivityLayoutMathWrap"
+        android:text="测试文字"
+        android:shadowColor="#00f"
+        android:shadowDx="10.0"
+        android:shadowDy="8.0"
+        android:shadowRadius="3.0"
+        android:textColor="#f00"
+        android:textSize="18pt"
+        android:background="@drawable/bg_border2" />
+    
+    <TextView 
+        style="@style/ActivityLayoutMathWrap"
+        android:text="hello"
+        android:password="true"
+        android:background="@drawable/bg_border"/>
+    
+    <CheckedTextView 
+        style="@style/ActivityLayoutMathWrap"
+        android:text="可勾选的文本"
+        android:checkMark="@drawable/ok"/>
+
+</LinearLayout>
