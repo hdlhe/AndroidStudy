@@ -17,6 +17,7 @@ import com.example.ui.include_tag.IncludeTagActivity;
 import com.example.ui.radiobutton.RadioButtonActivity;
 import com.example.ui.service.ServiceActivity;
 import com.example.ui.simpleadapter.SimpleAdapterActivity;
+import com.example.ui.simplecursoradapter.SimpleCursorAdapterActivity;
 import com.example.ui.switcher.SwitcherActivity;
 import com.example.ui.tabwidget.TableWidgetActivity;
 import com.example.ui.textview.TextViewActivity;
@@ -47,7 +48,7 @@ public class MainActivity extends Activity {
 				new Intent(MainActivity.this, ArrayAdapterActivity.class),
 				new Intent(MainActivity.this, SimpleAdapterActivity.class), 
 				null,
-				null,
+				new Intent(MainActivity.this, SimpleCursorAdapterActivity.class),
 				null,
 				null,
 				null,

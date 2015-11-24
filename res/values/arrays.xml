@@ -15,6 +15,7 @@
         <item>ArrayAdapter</item>
         <item>SimpleAdapter</item>
         <item>BaseAdapter</item>
+        <item>SimpleCursorAdapter</item>
 
         <item>ExpandableListView</item>
         <item>Spinner</item>

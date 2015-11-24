@@ -8,6 +8,8 @@
         android:minSdkVersion="17"
         android:targetSdkVersion="17" />
 
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -74,8 +76,12 @@
             android:label="@string/title_activity_include_tag" >
         </activity>
         <activity
-            android:name="com.example.ui.tabwidget.TableWidgetActivity"
+            android:name=".tabwidget.TableWidgetActivity"
             android:label="@string/title_activity_table_widget" >
+        </activity>
+        <activity
+            android:name="com.example.ui.simplecursoradapter.SimpleCursorAdapterActivity"
+            android:label="@string/title_activity_simple_cursor_adapter" >
         </activity>
     </application>
 
