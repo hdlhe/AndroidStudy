@@ -85,8 +85,12 @@
             android:label="@string/title_activity_simple_cursor_adapter" >
         </activity>
         <activity
-            android:name="com.example.ui.asyncqueryhandler.AsyncQueryHandlerActivity"
+            android:name=".asyncqueryhandler.AsyncQueryHandlerActivity"
             android:label="@string/title_activity_async_query_handler" >
+        </activity>
+        <activity
+            android:name="com.example.ui.asynctask.AsyncTaskActivity"
+            android:label="@string/title_activity_async_task" >
         </activity>
     </application>
 

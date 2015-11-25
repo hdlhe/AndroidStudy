@@ -2,6 +2,7 @@ package com.example.ui;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.widget.ListView;
 
 import com.example.ui.arrayadapter.ArrayAdapterActivity;
 import com.example.ui.asyncqueryhandler.AsyncQueryHandlerActivity;
+import com.example.ui.asynctask.AsyncTaskActivity;
 import com.example.ui.button.ButtonActivity;
 import com.example.ui.chronometer.ChronometerActivity;
 import com.example.ui.edittext.EditTextActivity;
@@ -66,7 +68,9 @@ public class MainActivity extends Activity {
 				null, //<item >Content Provider</item>
 				new Intent(MainActivity.this, IncludeTagActivity.class),
 				new Intent(MainActivity.this, TableWidgetActivity.class),
-				new Intent(MainActivity.this, AsyncQueryHandlerActivity.class)};
+				new Intent(MainActivity.this, AsyncQueryHandlerActivity.class),
+				new Intent(MainActivity.this, AsyncTaskActivity.class),
+				};
 
 		listView = (ListView) findViewById(R.id.list_view);
 		listView.setOnItemClickListener(new OnItemClickListener() {

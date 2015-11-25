@@ -35,5 +35,6 @@
         <item >Table Widget</item>
         
         <item >AsyncQueryHandler</item>
+        <item >AsyncTask</item>
     </string-array>
 </resources>

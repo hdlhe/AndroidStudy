@@ -8,5 +8,6 @@
     <string name="title_activity_table_widget">TableWidgetActivity</string>
     <string name="title_activity_simple_cursor_adapter">SimpleCursorAdapterActivity</string>
     <string name="title_activity_async_query_handler">AsyncQueryHandlerActivity</string>
+    <string name="title_activity_async_task">AsyncTaskActivity</string>
 
 </resources>
