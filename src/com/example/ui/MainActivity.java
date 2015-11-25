@@ -10,6 +10,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
 import com.example.ui.arrayadapter.ArrayAdapterActivity;
+import com.example.ui.asyncqueryhandler.AsyncQueryHandlerActivity;
 import com.example.ui.button.ButtonActivity;
 import com.example.ui.chronometer.ChronometerActivity;
 import com.example.ui.edittext.EditTextActivity;
@@ -42,25 +43,30 @@ public class MainActivity extends Activity {
 				new Intent(MainActivity.this, RadioButtonActivity.class),
 				new Intent(MainActivity.this, TogleButtonActivity.class),
 				new Intent(MainActivity.this, SwitcherActivity.class), 
-				null,
-				null, new Intent(MainActivity.this, ChronometerActivity.class),
-				null,
+		        null, //<item>AnalogClock</item>
+		        null, //<item>DigitalClock</item>
+				new Intent(MainActivity.this, ChronometerActivity.class),
+				null, //<item>ImageView</item>
 				new Intent(MainActivity.this, ArrayAdapterActivity.class),
 				new Intent(MainActivity.this, SimpleAdapterActivity.class), 
-				null,
+				null, //<item>BaseAdapter</item>
 				new Intent(MainActivity.this, SimpleCursorAdapterActivity.class),
-				null,
-				null,
-				null,
-				null,
-				null,
-				null,
-				null,
+				null, //<item>ExpandableListView</item>
+				null, //<item>Spinner</item>
+				null, //<item>Gallery</item>
+				null, //<item>ViewFlipper</item>
+				null, //<item>StackView</item>
+		        
+				null, //<item>Canvas</item>
+		        
+				null, //<item>Handler</item>
+				null, //<item >Activity</item>
 				new Intent(MainActivity.this, ServiceActivity.class),
-				null,
-				null,
+				null, //<item >Broadcast</item>
+				null, //<item >Content Provider</item>
 				new Intent(MainActivity.this, IncludeTagActivity.class),
-				new Intent(MainActivity.this, TableWidgetActivity.class)};
+				new Intent(MainActivity.this, TableWidgetActivity.class),
+				new Intent(MainActivity.this, AsyncQueryHandlerActivity.class)};
 
 		listView = (ListView) findViewById(R.id.list_view);
 		listView.setOnItemClickListener(new OnItemClickListener() {

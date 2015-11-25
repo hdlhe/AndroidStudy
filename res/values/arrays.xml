@@ -33,5 +33,7 @@
         <item >Content Provider</item>
         <item >Include Tag</item>
         <item >Table Widget</item>
+        
+        <item >AsyncQueryHandler</item>
     </string-array>
 </resources>

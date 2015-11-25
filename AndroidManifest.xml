@@ -9,6 +9,7 @@
         android:targetSdkVersion="17" />
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -80,8 +81,12 @@
             android:label="@string/title_activity_table_widget" >
         </activity>
         <activity
-            android:name="com.example.ui.simplecursoradapter.SimpleCursorAdapterActivity"
+            android:name=".simplecursoradapter.SimpleCursorAdapterActivity"
             android:label="@string/title_activity_simple_cursor_adapter" >
+        </activity>
+        <activity
+            android:name="com.example.ui.asyncqueryhandler.AsyncQueryHandlerActivity"
+            android:label="@string/title_activity_async_query_handler" >
         </activity>
     </application>
 
