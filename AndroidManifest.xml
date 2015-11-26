@@ -89,8 +89,12 @@
             android:label="@string/title_activity_async_query_handler" >
         </activity>
         <activity
-            android:name="com.example.ui.asynctask.AsyncTaskActivity"
+            android:name=".asynctask.AsyncTaskActivity"
             android:label="@string/title_activity_async_task" >
+        </activity>
+        <activity
+            android:name=".fragment.FragmentActivityTest"
+            android:label="@string/title_activity_fragment" >
         </activity>
     </application>
 

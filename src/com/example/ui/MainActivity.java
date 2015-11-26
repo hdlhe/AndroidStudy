@@ -2,7 +2,6 @@ package com.example.ui;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -16,6 +15,7 @@ import com.example.ui.asynctask.AsyncTaskActivity;
 import com.example.ui.button.ButtonActivity;
 import com.example.ui.chronometer.ChronometerActivity;
 import com.example.ui.edittext.EditTextActivity;
+import com.example.ui.fragment.FragmentActivityTest;
 import com.example.ui.include_tag.IncludeTagActivity;
 import com.example.ui.radiobutton.RadioButtonActivity;
 import com.example.ui.service.ServiceActivity;
@@ -62,6 +62,7 @@ public class MainActivity extends Activity {
 				null, //<item>Canvas</item>
 		        
 				null, //<item>Handler</item>
+				new Intent(MainActivity.this, FragmentActivityTest.class),
 				null, //<item >Activity</item>
 				new Intent(MainActivity.this, ServiceActivity.class),
 				null, //<item >Broadcast</item>

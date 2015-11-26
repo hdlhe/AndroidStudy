@@ -27,6 +27,8 @@
         
         <item>Handler</item>
         
+        <item>Fragment</item>
+        
         <item >Activity</item>
         <item >Service</item>
         <item >Broadcast</item>
