@@ -17,6 +17,7 @@ import com.example.ui.chronometer.ChronometerActivity;
 import com.example.ui.edittext.EditTextActivity;
 import com.example.ui.fragment.FragmentActivityTest;
 import com.example.ui.include_tag.IncludeTagActivity;
+import com.example.ui.optionsmenu.OptionsMenuActivity;
 import com.example.ui.radiobutton.RadioButtonActivity;
 import com.example.ui.service.ServiceActivity;
 import com.example.ui.simpleadapter.SimpleAdapterActivity;
@@ -71,6 +72,7 @@ public class MainActivity extends Activity {
 				new Intent(MainActivity.this, TableWidgetActivity.class),
 				new Intent(MainActivity.this, AsyncQueryHandlerActivity.class),
 				new Intent(MainActivity.this, AsyncTaskActivity.class),
+				new Intent(MainActivity.this, OptionsMenuActivity.class),
 				};
 
 		listView = (ListView) findViewById(R.id.list_view);
