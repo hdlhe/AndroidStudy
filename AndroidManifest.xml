@@ -102,8 +102,13 @@
             android:theme="@android:style/Theme.Holo.Light" >
         </activity>
         <activity
-            android:name="com.example.ui.searchview.SearchViewActivity"
-            android:label="@string/title_activity_search_view" 
+            android:name=".searchview.SearchViewActivity"
+            android:label="@string/title_activity_search_view"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.example.ui.optionsmenu.AnotherActivity"
+            android:label="@string/title_activity_another" 
             android:theme="@android:style/Theme.Holo.Light">
         </activity>
     </application>

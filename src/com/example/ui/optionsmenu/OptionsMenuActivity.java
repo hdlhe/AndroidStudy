@@ -1,12 +1,15 @@
 package com.example.ui.optionsmenu;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.Window;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 import com.example.ui.R;
 
@@ -24,6 +27,15 @@ public class OptionsMenuActivity extends Activity {
 		setContentView(R.layout.activity_options_menu);
 //		getWindow().setFeatureDrawableResource(Window.FEATURE_LEFT_ICON,
 //                R.drawable.ic_launcher);
+		
+		Button button = (Button) findViewById(R.id.another_activity);
+		button.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent  = new Intent(OptionsMenuActivity.this, AnotherActivity.class);
+				startActivity(intent);
+			}
+		});
 	}
 
 	@Override
