@@ -38,6 +38,7 @@
         
         <item >AsyncQueryHandler</item>
         <item >AsyncTask</item>
+        <item >CursorLoader</item>
         <item >OptionsMenu</item>
         <item >SearchView</item>
     </string-array>

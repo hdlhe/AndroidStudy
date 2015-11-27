@@ -107,8 +107,13 @@
             android:theme="@android:style/Theme.Holo.Light" >
         </activity>
         <activity
-            android:name="com.example.ui.optionsmenu.AnotherActivity"
-            android:label="@string/title_activity_another" 
+            android:name=".optionsmenu.AnotherActivity"
+            android:label="@string/title_activity_another"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".cursorloader.CursorLoaderActivity"
+            android:label="@string/title_activity_cursor_loader" 
             android:theme="@android:style/Theme.Holo.Light">
         </activity>
     </application>

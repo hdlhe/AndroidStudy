@@ -13,5 +13,6 @@
     <string name="title_activity_options_menu">OptionsMenuActivity</string>
     <string name="title_activity_search_view">SearchViewActivity</string>
     <string name="title_activity_another">AnotherActivity</string>
+    <string name="title_activity_cursor_loader">CursorLoaderActivity</string>
 
 </resources>

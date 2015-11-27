@@ -14,6 +14,7 @@ import com.example.ui.asyncqueryhandler.AsyncQueryHandlerActivity;
 import com.example.ui.asynctask.AsyncTaskActivity;
 import com.example.ui.button.ButtonActivity;
 import com.example.ui.chronometer.ChronometerActivity;
+import com.example.ui.cursorloader.CursorLoaderActivity;
 import com.example.ui.edittext.EditTextActivity;
 import com.example.ui.fragment.FragmentActivityTest;
 import com.example.ui.include_tag.IncludeTagActivity;
@@ -73,6 +74,7 @@ public class MainActivity extends Activity {
 				new Intent(MainActivity.this, TableWidgetActivity.class),
 				new Intent(MainActivity.this, AsyncQueryHandlerActivity.class),
 				new Intent(MainActivity.this, AsyncTaskActivity.class),
+				new Intent(MainActivity.this, CursorLoaderActivity.class),
 				new Intent(MainActivity.this, OptionsMenuActivity.class),
 				new Intent(MainActivity.this, SearchViewActivity.class),
 				};
