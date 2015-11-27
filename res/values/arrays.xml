@@ -39,5 +39,6 @@
         <item >AsyncQueryHandler</item>
         <item >AsyncTask</item>
         <item >OptionsMenu</item>
+        <item >SearchView</item>
     </string-array>
 </resources>

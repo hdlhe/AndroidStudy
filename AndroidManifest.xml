@@ -97,9 +97,14 @@
             android:label="@string/title_activity_fragment" >
         </activity>
         <activity
-            android:name="com.example.ui.optionsmenu.OptionsMenuActivity"
+            android:name=".optionsmenu.OptionsMenuActivity"
             android:label="@string/title_activity_options_menu"
             android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name="com.example.ui.searchview.SearchViewActivity"
+            android:label="@string/title_activity_search_view" 
+            android:theme="@android:style/Theme.Holo.Light">
         </activity>
     </application>
 
